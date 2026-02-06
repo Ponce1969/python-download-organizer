@@ -1,0 +1,92 @@
+# ==============================
+# Configuración general
+# ==============================
+
+[general]
+
+# true = solo simula (no mueve archivos)
+# false = mueve archivos realmente
+dry_run = true
+
+# Nombre de la carpeta de descargas (dentro de tu home)
+# Windows: "Downloads"
+# Linux/Mac: "Downloads" o "Descargas"
+downloads_folder = "Downloads"
+
+
+# ==============================
+# Carpetas por extensión
+# ==============================
+# Formato: extension = "NombreCarpeta"
+# Las carpetas se crearán automáticamente dentro de Downloads
+
+[folders]
+
+# Documentos PDF
+pdf = "PDF"
+
+# Videos
+mp4 = "Videos"
+avi = "Videos"
+mkv = "Videos"
+mov = "Videos"
+wmv = "Videos"
+flv = "Videos"
+webm = "Videos"
+
+# Imágenes
+jpg = "Imagenes"
+jpeg = "Imagenes"
+png = "Imagenes"
+gif = "Imagenes"
+bmp = "Imagenes"
+webp = "Imagenes"
+svg = "Imagenes"
+
+# Documentos de texto
+doc = "Documentos"
+docx = "Documentos"
+txt = "Documentos"
+rtf = "Documentos"
+odt = "Documentos"
+
+# Hojas de cálculo
+xls = "Documentos"
+xlsx = "Documentos"
+csv = "Documentos"
+
+# Presentaciones
+ppt = "Documentos"
+pptx = "Documentos"
+
+# Archivos comprimidos
+zip = "Comprimidos"
+rar = "Comprimidos"
+7z = "Comprimidos"
+tar = "Comprimidos"
+gz = "Comprimidos"
+
+# Ejecutables e instaladores
+exe = "Programas"
+msi = "Programas"
+dmg = "Programas"
+deb = "Programas"
+rpm = "Programas"
+
+# Audio
+mp3 = "Audio"
+wav = "Audio"
+flac = "Audio"
+m4a = "Audio"
+aac = "Audio"
+
+
+# ==============================
+# Otros archivos
+# ==============================
+# Archivos que no coincidan con ninguna extensión
+# se moverán a esta carpeta
+
+[others]
+
+folder = "Otros"
